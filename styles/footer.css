@@ -1,0 +1,106 @@
+.footer-top{
+    background-color: #2d2d73;
+    display: flex;
+    font-size: 16px ;
+    padding: 14px 25px;
+    color: white;
+}
+
+.about,
+.products,
+.support,
+.download{
+    flex: 1;
+    font-family: ndot55; 
+   
+}
+
+.newsletter{
+    flex: 2;
+    font-family: ndot55; 
+}
+
+li{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+ul{
+    padding-left: 0px ;
+    margin-top: 23px;
+
+}
+.newsletter-content{
+    margin-top: 15px;
+    font-family: 'Noto Sans Mono', monospace ;
+}
+
+.newsletter-content-top{
+    display: flex;
+    margin-bottom: 15px;
+}
+.email-box{
+    flex: 1;
+    margin-right: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+.email-box:focus {
+    outline: none;
+}
+.send-button{
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Noto Sans Mono', monospace ;
+}
+
+.policy-checkbox{
+    font-size: 12px;
+    color: lightgrey;
+    padding-bottom: 20px;
+}
+.social-media img{ 
+    height: 35px;
+    padding: 10px 0px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 55px;
+    font-size: 14px;
+}
+.footer-bottom li{
+    display: inline;
+}
+.footer-bottom img{
+    height: 25px;
+}
+.footer-bottom u{
+    cursor: pointer;
+}
+
+.moving-footer marquee{
+    width: 100%;
+    direction:left;
+    height: 45px;
+    font-family: ndot55;
+    font-size: 45px;
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    padding-bottom: 5px;
+}
