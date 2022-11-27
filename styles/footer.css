@@ -110,12 +110,13 @@ ul{
     right: 20px;
     bottom: 20px;
     cursor: pointer;
+    z-index: 10000;
   }
   
   
   .tooltip {
     margin: 0;
-    padding: 10px;
+    padding: 10px 14px;
     border-radius: 50%;
     background-color: #151514;
     color: rgb(237, 237, 237);
