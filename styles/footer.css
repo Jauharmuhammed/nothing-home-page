@@ -123,6 +123,7 @@ ul{
     position: relative;
     display: inline-block;
     font-size: 24px;
+    z-index: 10000;
   }
   
   
