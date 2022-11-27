@@ -104,3 +104,63 @@ ul{
     z-index: 100;
     padding-bottom: 5px;
 }
+
+.infoButton{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  
+  
+  .tooltip {
+    margin: 0;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #151514;
+    color: rgb(237, 237, 237);
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  
+  
+  .tooltip .tooltiptext {
+    font-size: .9rem;
+    line-height: 1.1rem;
+    visibility: hidden;
+    width: max-content;
+    max-width: 400px;
+    background-color: #474545;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+    border-radius: 6px;
+    bottom: 135%;
+    right: 0;
+    margin-left: -40px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* arrow */
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    right: 6px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #474545 transparent transparent transparent;
+  }
+  
+  
