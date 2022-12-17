@@ -11,7 +11,7 @@
     <a href="https://github.com/Jauharmuhammed/nothing-home-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jauharmuhammed.github.io/youTube-home-page/">View Site</a>
+    <a href="https://jauharmuhammed.github.io/nothing-home-page/">View Site</a>
     ·
     <a href="https://github.com/Jauharmuhammed/nothing-home-page/issues">Report Bug</a>
     ·
